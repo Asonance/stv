@@ -26,7 +26,7 @@ def count_first_preferences(ballots, active_candidates):
                 break
     return counts
 
-def stv_count(ballots, seats=5):
+def stv_count(ballots, seats=12):
     """Main STV counting function"""
     elected = []
     eliminated = []
